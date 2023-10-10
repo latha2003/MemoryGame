@@ -34,7 +34,7 @@ document.querySelectorAll('.btn').forEach((btn, index) => {
 });
 
 function generatePattern() {
-  const maxDisplayColors = 4; // Set the maximum number of colors to display
+  const maxDisplayColors = 6; // Set the maximum number of colors to display
   pattern.length = 0; // Clear the existing pattern
 
   for (let i = 0; i < maxDisplayColors; i++) {
